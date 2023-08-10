@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - 3000:3000
+    restart: always
+    # environment:
+    #   - REACT_APP_EMAILJS_SERVICE_ID=${REACT_APP_EMAILJS_SERVICE_ID}
+    #   - REACT_APP_EMAILJS_TEMPLATE_ID=${REACT_APP_EMAILJS_TEMPLATE_ID}
+    #   - REACT_APP_EMAILJS_USER_ID=${REACT_APP_EMAILJS_USER_ID}
