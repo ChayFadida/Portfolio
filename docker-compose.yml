@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    build: .
+    image: harbor.chay-techs.com/portfolio/portfolio-app:latest
     ports:
       - 3000:3000
     restart: always
