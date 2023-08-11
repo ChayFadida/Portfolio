@@ -148,7 +148,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       client: "Ruby Clinton",
       technologies: "Python",
       industry: "Art & Design",
-      date: "July 16, 2019",
+      date: "March, 2022",
       url: {
         name: "www.example.com",
         link: "https://www.example.com",
