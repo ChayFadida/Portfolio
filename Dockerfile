@@ -14,7 +14,6 @@ WORKDIR /app
 
 # Copy the package.json and package-lock.json (or yarn.lock) files to the container
 COPY yechezkePortfolio /app/
-COPY .env /app/
 # Install the application's dependencies
 RUN npm install --production
 
