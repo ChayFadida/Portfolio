@@ -117,7 +117,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Stocks View Website",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+        "Built a user-friendly web app that connects to a database. Users can log in securely, check out stock charts, and save their favorite ones for easy access.",
       client: "Ruby Clinton",
       technologies: "Node JS, Express, Json Web Token, BCRYPT, Rest API, Docker, MySQL",
       industry: "Art & Design",
