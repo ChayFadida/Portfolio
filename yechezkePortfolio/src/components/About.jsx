@@ -33,7 +33,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm Chay Fadida A <span className="text-primary">Software</span> and <span className="text-primary">DevOps</span> Engineer intern
+              I'm Chay Fadida A <span className="text-primary">Software</span> and <span className="text-primary">DevOps</span> Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
               I am a software engineering student in my fourth year of studies, with one year of hands-on experience in DevOps.
@@ -63,9 +63,6 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </li>
                 <li>
                   <span className="fw-600 me-2">Age:</span>26
-                </li>
-                <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Kiryat Bialik, Israel
                 </li>
               </ul>
               <a

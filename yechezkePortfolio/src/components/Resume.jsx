@@ -20,7 +20,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
   const experienceDetails = [
     {
       yearRange: "2022 - Today",
-      title: "DevOps Engineer intern",
+      title: "DevOps Engineer",
       place: "Intel",
       desc: "Responsible for building, deploying, maintain and automating software development pipeline from source control through production utilizing Azure cloud platform.",
     },
