@@ -139,7 +139,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "images/projects/stocksJWT.png",
         "images/projects/stocksPasswords.png"
       ],
-      categories: [filters.BRAND, filters.PHOTOS],
+      categories: [filters.APP],
     },
     {
       title: "Logistic Regression Implementation And Proof",
@@ -168,6 +168,34 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.RESEARCH],
     },
+    {
+      title: "Monitoring linux server",
+      projectInfo:
+        "My monitoring project is powered by a cutting-edge tech stack, combining ELK (Elasticsearch, Logstash, Filebeat, and Kibana) and Prometheus with Grafana. With Prometheus and Grafana, I efficiently oversee my Jenkins instance, hardware performance, and Docker containers, ensuring optimal operations. Additionally, using the ELK stack, I meticulously monitor Nginx logs, guaranteeing comprehensive visibility and robust performance management. This integrated solution enables data-driven decision-making and proactive system maintenance.",
+      client: "Ruby Clinton",
+      technologies: "Prometheus, Grafana, Elasticsearch, filebeat, kibana, logstash",
+      industry: "Art & Design",
+      date: "September, 2023",
+      url: {
+        name: "www.example.com",
+        link: "https://www.example.com",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/MONITOR.png",
+      sliderImages: [
+        "images/projects/grafana.png",
+        "images/projects/grafana_jenkins.png",
+        "images/projects/kibana.png",
+        "images/projects/prometheus.png"
+      ],
+      categories: [filters.WEBSERVER],
+    }
   ];
 
   // initialize an Isotope object with configs
