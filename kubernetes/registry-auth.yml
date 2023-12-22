@@ -4,5 +4,5 @@ metadata:
   name: chay-techs-registry-key
   namespace: chay-techs-production
 data:
-  .dockerconfigjson: 
+  .dockerconfigjson: <PLACEHOLDER_SECRET>
 type: kubernetes.io/dockerconfigjson
