@@ -36,7 +36,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I'm Chay Fadida A <span className="text-primary">Software</span> and <span className="text-primary">DevOps</span> Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I am a GITOPS is Passion software engineering student in my fourth year of studies, with one year of hands-on experience in DevOps.
+              I am a GITOPS! is Passion software engineering student in my fourth year of studies, with one year of hands-on experience in DevOps.
               Throughout my journey, I have focused on mastering the art of orchestrating CI/CD pipelines and configuring robust infrastructure
               to ensure seamless software deployment across both Unix and Windows platforms
             </p>
