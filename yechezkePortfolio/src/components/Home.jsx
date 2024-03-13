@@ -46,7 +46,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-2 text-light mb-1">
-                Passionate software engineering student with a keen interest in DevOps practices.
+                Passionate software and devops engineering student with a keen interest in DevOps practices.
                 </p>
                 {/* <p className="text-2 text-light mb-3">
                 I thrive as a quick learner and strong team player, eagerly looking forward to applying my skills in contributing to innovative projects.
