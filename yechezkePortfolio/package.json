@@ -2,7 +2,7 @@
   "name": "simone-personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3000",
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@popperjs/core": "^2.11.6",
