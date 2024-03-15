@@ -41,7 +41,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               to ensure seamless software deployment across both Unix and Windows platforms
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Immersed in the world of DevOps, I have discovered an unyielding love for the field that fuels my drive to continuously learn and grow.
+              Immersed in the world of DevOps, I have discovered an unyielding love for the field that fuels my drive to continuously learn and grow!.
             </p>
           </div>
           {/* About me content end */}
