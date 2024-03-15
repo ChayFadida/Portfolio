@@ -53,7 +53,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 </p> */}
                 <p></p>
                 <p className="text-6 text-light mb-5">
-                This website is served to you by my own private linux server that I have built in my living room, 
+                This website is served to you by my own private On-Prem Kubernetes cluster that I have built in my living room, 
                 <br></br>how cool is that?
                 </p>
                 {/* <a

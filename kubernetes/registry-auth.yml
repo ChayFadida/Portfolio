@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: chay-techs-registry-key
+  namespace: chay-techs-production
+data:
+  .dockerconfigjson: <PLACEHOLDER_SECRET>
+type: kubernetes.io/dockerconfigjson
