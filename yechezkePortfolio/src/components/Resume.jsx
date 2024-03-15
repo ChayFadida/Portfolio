@@ -67,6 +67,14 @@ const Resume = ({ classicHeader, darkTheme }) => {
       name: "Azure DevOps",
       percent: 90,
     },
+    {
+      name: "Jenkins",
+      percent: 85,
+    },
+    {
+      name: "Python",
+      percent: 80,
+    },
   ];
 
   return (
