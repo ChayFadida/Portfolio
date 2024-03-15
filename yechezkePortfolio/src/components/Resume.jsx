@@ -28,8 +28,8 @@ const Resume = ({ classicHeader, darkTheme }) => {
 
   const skills = [
     {
-      name: "Python",
-      percent: 90,
+      name: "Kubernetes",
+      percent: 85,
     },
     {
       name: "Linux",
@@ -48,19 +48,19 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 75,
     },
     {
-      name: "prometheus",
+      name: "Prometheus & Grafana",
       percent: 80,
     },
     {
-      name: "django",
+      name: "CI/CD",
       percent: 80,
     },
     {
-      name: "JS",
-      percent: 65,
+      name: "On-Prem",
+      percent: 95,
     },
     {
-      name: "ELK",
+      name: "GitOps",
       percent: 80,
     },
     {
