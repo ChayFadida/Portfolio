@@ -2,7 +2,6 @@
   "name": "simone-personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "develop.chay-techs.com",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@popperjs/core": "^2.11.6",
