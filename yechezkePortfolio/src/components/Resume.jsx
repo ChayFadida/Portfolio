@@ -22,7 +22,12 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2022 - Today",
       title: "DevOps Engineer",
       place: "Intel",
-      desc: "Responsible for building, deploying, maintain and automating software development pipeline from source control through production utilizing Azure cloud platform.",
+      desc: [
+        "Led the building, deployment, maintenance, and automation of the software development pipeline from source control to production.","",
+        "Proficiently monitored systems using CI/CD tools such as Jenkins, Ansible, and other relevant technologies.","",
+        "Applied Python for scripting and automation to enhance overall operational efficiency.","",
+        "Implemented DevOps best practices to foster collaboration between development and operations teams, facilitating faster delivery of high-quality software products."
+      ],
     },
   ];
 
@@ -149,28 +154,37 @@ const Resume = ({ classicHeader, darkTheme }) => {
               My Experience
             </h2>
             {experienceDetails.length > 0 &&
-              experienceDetails.map((value, index) => (
-                <div
-                  key={index}
-                  className={
-                    "bg-white  rounded p-4 mb-4 " +
-                    (darkTheme ? "bg-dark" : "bg-white border")
-                  }
-                >
-                  <p className="badge bg-primary text-2 fw-400">
-                    {value.yearRange}
-                  </p>
-                  <h3 className={"text-5 " + (darkTheme ? "text-white" : "")}>
-                    {value.title}
-                  </h3>
-                  <p className={darkTheme ? "text-primary" : "text-danger"}>
-                    {value.place}
-                  </p>
-                  <p className={"mb-0 " + (darkTheme ? "text-white-50" : "")}>
-                    {value.desc}
-                  </p>
-                </div>
-              ))}
+  experienceDetails.map((value, index) => (
+    <div
+      key={index}
+      className={
+        "bg-white  rounded p-4 mb-4 " +
+        (darkTheme ? "bg-dark" : "bg-white border")
+      }
+    >
+      <p className="badge bg-primary text-2 fw-400">
+        {value.yearRange}
+      </p>
+      <h3 className={"text-5 " + (darkTheme ? "text-white" : "")}>
+        {value.title}
+      </h3>
+      <p className={darkTheme ? "text-primary" : "text-danger"}>
+        {value.place}
+      </p>
+      {/* Separate lines in value.desc */}
+<p className={"mb-0 " + (darkTheme ? "text-white-50" : "")}>
+  {value.desc.map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      {/* Add <br /> tag if not the last line */}
+      {index !== value.desc.length - 1 && <br />}
+    </React.Fragment>
+  ))}
+</p>
+    </div>
+  ))}
+
+
           </div>
         </div>
         {/* My Skills */}
