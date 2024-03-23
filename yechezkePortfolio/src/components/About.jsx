@@ -92,10 +92,10 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>1</span>+
+                  <span>2</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
-                  Years Experiance
+                  Years Experience
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                     (darkTheme ? "text-white-50" : "text-muted")
                   }
                 >
-                  <span>86.17</span>
+                  <span>86</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
                   GPA
