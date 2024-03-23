@@ -4,10 +4,10 @@ const Services = ({ classicHeader, darkTheme }) => {
   // services details
   const services = [
     {
-      name: "Cloud Services",
-      desc: "Deploy applications to cloud platforms (e.g., AWS, Azure, Google Cloud) using cloud-native services. Optimize and scale infrastructure as needed to meet application demands.",
-      icon: "fas fa-cloud",
-    },
+      name: "Infrastructure Automation",
+      desc: "Automate infrastructure provisioning and management using various tools and methodologies. Design scalable and resilient architectures to support application deployment.",
+      icon: "fas fa-network-wired",
+      },
     {
       name: "Monitoring and Logging",
       desc: "Set up monitoring and logging solutions to gain insights into application performance and detect issues early. Use tools like Prometheus, ELK stack, or Grafana to ensure system health.",
@@ -15,7 +15,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Continuous Integration and Deployment",
-      desc: "Adopt agile methodologies to ensure rapid development, feedback, and continuous improvement.",
+      desc: "Skilled in implementing efficient CI/CD pipelines for rapid development, feedback incorporation, and continuous improvement.",
       icon: "fas fa-cogs",
     },
     {
