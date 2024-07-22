@@ -20,7 +20,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Agile Practices",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "Utilize Scrum to enhance team collaboration, iterative development, and adaptive planning for effective project management and delivery.",
       icon: "fas fa-running",
     },
     {
