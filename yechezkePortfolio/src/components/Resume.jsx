@@ -25,7 +25,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
       desc: [
         "Led the building, deployment, maintenance, and automation of the software development pipeline from source control to production.","",
         "Proficiently monitored systems using CI/CD tools such as Jenkins, Ansible, and other relevant technologies.","",
-        "Applied Python for scripting and automation to enhance overall operational efficiency.","",
+        "Applied Python for scripting and automation to enhance overall operational efficiency. ","",
         "Implemented DevOps best practices to foster collaboration between development and operations teams, facilitating faster delivery of high-quality software products."
       ],
     },
