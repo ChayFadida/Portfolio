@@ -18,14 +18,6 @@ const Resume = ({ classicHeader, darkTheme }) => {
   ];
 
   const experienceDetails = [
-      {
-      yearRange: "2024 - Today",
-      title: "DevOps Engineer",
-      place: "magic world",
-      desc: [
-        "Work hard!!!",""
-      ],
-    },
     {
       yearRange: "2022 - Today",
       title: "DevOps Engineer",
