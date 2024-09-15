@@ -4,10 +4,10 @@ import resumeFile from "../documents/resume.pdf";
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
     {
-      yearRange: "2020 - Today",
+      yearRange: "2020 - 2024",
       title: "Bachelor of Science in Software Engineering Student",
       place: "Ort Braude",
-      desc: "Currently at 6th semester out of 9",
+      desc: "",
     },
     {
       yearRange: "Graduated in 2015",
