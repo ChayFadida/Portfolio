@@ -33,7 +33,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }
             >
-              I'm Chay Fadida A <span className="text-primary">Software</span> and <span className="text-primary">DevOps</span> Engineer
+              I'm Chay Fadidaa A <span className="text-primary">Software</span> and <span className="text-primary">DevOps</span> Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
             Experienced DevOps engineer proficient in on-prem infrastructure, CI/CD, Kubernetes, Infrastructure as Code, and Automation. A self-motivated learner dedicated to leveraging technology for efficiency, scalability, and innovation.
